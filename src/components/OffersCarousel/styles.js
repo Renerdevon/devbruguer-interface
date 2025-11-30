@@ -5,7 +5,24 @@ export const Container = styled.div`
         padding-right: 40px;
     }
 
+    overflow: hidden;
+
+    .react-multi-carousel-list {
+        overflow: visible;
+    }
+
+     .react-multiple-carousel__arrow--left {
+        left: 15px;
+        top: 10px;
+    }
+
+    .react-multiple-carousel__arrow--right {
+        top: 10px;
+    }
+
+
     padding-left: 40px;
+    padding-bottom: 40px;
 
 `
 
