@@ -64,13 +64,21 @@ export const CategoryButton = styled(Link)`
     background: none;
     color: ${props => props.$isActiveCategory ? '#9758a6' : '#ff8c05'};
     font-size: 24px;
-    font-weight:  500;
-    padding-bottom: 5px;
+    font-weight: 500;
+    padding: 5px 10px;
     line-height: 20px;
     border: none;
-    border-bottom: ${props => props.$isActiveCategory && '3px solid #9758a6'};
+    border-radius: 6px;
 
-`
+    /* Transição suave */
+    transition: background-color 1.5s ease, color 1.5s ease;
+
+    &:hover {
+        background-color: #9758a6; /* o roxo */
+        color: #fff;              /* deixa o texto branco */
+    }
+`;
+
 
 
 export const ProductsContainer = styled.div`
@@ -83,3 +91,45 @@ export const ProductsContainer = styled.div`
     margin: 50px auto 0;
 
 `
+
+export const HomeButton = styled.button`
+    position: relative;
+    width: 192px;     /* 48 * 4 */
+    height: 56px;     /* h-14 */
+    background: #fff;
+    color: #000;
+    font-size: 20px;  /* text-xl */
+    font-weight: 600;
+    border: none;
+    border-radius: 16px; /* rounded-2xl */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    p {
+        transform: translateX(8px);
+        z-index: 5;
+    }
+
+    .slider {
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        width: 48px;      /* w-1/4 de 192px */
+        height: 48px;     /* h-12 */
+        background: #9758a6; /* green-400 */
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+        transition: width 0.5s;
+    }
+
+    &:hover .slider {
+        width: 184px; /* group-hover:w-[184px] */
+    }
+`;
+
