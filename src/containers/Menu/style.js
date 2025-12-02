@@ -1,17 +1,84 @@
 import styled from "styled-components";
 import BannerHamburguer from '../../assets/banner-hamburguer.svg'
+import Background from '../../assets/backgroundl2.svg'
+import { Link } from 'react-router-dom'
 
 
-export const Container = styled.div``
-
-
-export const Banner = styled.div`
-    background: url('$BannerHamburguer');
+export const Container = styled.div`
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.6),
+        rgba(255, 255, 255, 0.6)
+    ),
+    url('${Background}');
 
 `
 
 
-export const CategoryMenu = styled.div``
+export const Banner = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+    width: 100%;
+    position: relative;
+
+    background: url('${BannerHamburguer}') no-repeat;
+    background-color: #1f1f1f;
+    background-position: center;
+    background: cover ;
+
+    h1 {
+        font-family: 'Road Rage', sans-serif;
+        font-size: 80px;
+        line-height: 65px;
+        color: #ffff;
+        position: absolute;
+
+        right: 20%;
+        top: 30%;
+
+        span {
+            display: block;
+            color: #ffff;
+            font-size: 20px;
+        }
+    }
+
+`
 
 
-export const ProductsContainer = styled.div``
+export const CategoryMenu = styled.div`
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+
+`
+
+export const CategoryButton = styled(Link)`
+    text-decoration: none;
+    cursor: pointer;
+    background: none;
+    color: #9758a6;
+    font-size: 24px;
+    font-weight:  500;
+    padding-bottom: 5px;
+    line-height: 20px;
+    border-bottom: 3px solid #9758a6;
+
+`
+
+
+export const ProductsContainer = styled.div`
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40px;
+    gap: 60px;
+    justify-content: center;
+    max-width: 1280px;
+    margin: 50px auto 0;
+
+`

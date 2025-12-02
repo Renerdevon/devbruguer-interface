@@ -4,7 +4,6 @@ import { CartButton } from "../CartButton";
 
 
 export function CardProduct({ product }) {
-    console.log(product);
 
     return (
         <Container>
