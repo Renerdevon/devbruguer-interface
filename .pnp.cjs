@@ -30,6 +30,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@eslint/js", "npm:9.39.1"],\
           ["@hookform/resolvers", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:5.2.2"],\
+          ["@phosphor-icons/react", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:2.1.10"],\
           ["@types/react", "npm:19.2.6"],\
           ["@types/react-dom", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:19.2.3"],\
           ["@vitejs/plugin-react", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:5.1.1"],\
@@ -1094,6 +1095,32 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@phosphor-icons/react", [\
+      ["npm:2.1.10", {\
+        "packageLocation": "../../.yarn/berry/cache/@phosphor-icons-react-npm-2.1.10-acd23b7e21-10c0.zip/node_modules/@phosphor-icons/react/",\
+        "packageDependencies": [\
+          ["@phosphor-icons/react", "npm:2.1.10"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:2.1.10", {\
+        "packageLocation": "./.yarn/__virtual__/@phosphor-icons-react-virtual-b8b6c0075a/3/.yarn/berry/cache/@phosphor-icons-react-npm-2.1.10-acd23b7e21-10c0.zip/node_modules/@phosphor-icons/react/",\
+        "packageDependencies": [\
+          ["@phosphor-icons/react", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:2.1.10"],\
+          ["@types/react", "npm:19.2.6"],\
+          ["@types/react-dom", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:19.2.3"],\
+          ["react", "npm:19.2.0"],\
+          ["react-dom", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:19.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@pkgjs/parseargs", [\
       ["npm:0.11.0", {\
         "packageLocation": "../../.yarn/berry/cache/@pkgjs-parseargs-npm-0.11.0-cd2a3fe948-10c0.zip/node_modules/@pkgjs/parseargs/",\
@@ -2124,6 +2151,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@eslint/js", "npm:9.39.1"],\
           ["@hookform/resolvers", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:5.2.2"],\
+          ["@phosphor-icons/react", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:2.1.10"],\
           ["@types/react", "npm:19.2.6"],\
           ["@types/react-dom", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:19.2.3"],\
           ["@vitejs/plugin-react", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:5.1.1"],\
