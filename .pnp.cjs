@@ -31,6 +31,8 @@ const RAW_RUNTIME_STATE =
           ["@eslint/js", "npm:9.39.1"],\
           ["@hookform/resolvers", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:5.2.2"],\
           ["@phosphor-icons/react", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:2.1.10"],\
+          ["@stripe/react-stripe-js", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:5.4.1"],\
+          ["@stripe/stripe-js", "npm:8.5.3"],\
           ["@types/react", "npm:19.2.6"],\
           ["@types/react-dom", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:19.2.3"],\
           ["@vitejs/plugin-react", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:5.1.1"],\
@@ -1421,6 +1423,46 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@stripe/react-stripe-js", [\
+      ["npm:5.4.1", {\
+        "packageLocation": "../../.yarn/berry/cache/@stripe-react-stripe-js-npm-5.4.1-cf064d3f0d-10c0.zip/node_modules/@stripe/react-stripe-js/",\
+        "packageDependencies": [\
+          ["@stripe/react-stripe-js", "npm:5.4.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:5.4.1", {\
+        "packageLocation": "./.yarn/__virtual__/@stripe-react-stripe-js-virtual-a683deb5c5/3/.yarn/berry/cache/@stripe-react-stripe-js-npm-5.4.1-cf064d3f0d-10c0.zip/node_modules/@stripe/react-stripe-js/",\
+        "packageDependencies": [\
+          ["@stripe/react-stripe-js", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:5.4.1"],\
+          ["@stripe/stripe-js", "npm:8.5.3"],\
+          ["@types/react", "npm:19.2.6"],\
+          ["@types/react-dom", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:19.2.3"],\
+          ["@types/stripe__stripe-js", null],\
+          ["prop-types", "npm:15.8.1"],\
+          ["react", "npm:19.2.0"],\
+          ["react-dom", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:19.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@stripe/stripe-js",\
+          "@types/react-dom",\
+          "@types/react",\
+          "@types/stripe__stripe-js",\
+          "react-dom",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@stripe/stripe-js", [\
+      ["npm:8.5.3", {\
+        "packageLocation": "../../.yarn/berry/cache/@stripe-stripe-js-npm-8.5.3-cb95355388-10c0.zip/node_modules/@stripe/stripe-js/",\
+        "packageDependencies": [\
+          ["@stripe/stripe-js", "npm:8.5.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@tufjs/canonical-json", [\
       ["npm:2.0.0", {\
         "packageLocation": "../../.yarn/berry/cache/@tufjs-canonical-json-npm-2.0.0-46a22aa444-10c0.zip/node_modules/@tufjs/canonical-json/",\
@@ -2152,6 +2194,8 @@ const RAW_RUNTIME_STATE =
           ["@eslint/js", "npm:9.39.1"],\
           ["@hookform/resolvers", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:5.2.2"],\
           ["@phosphor-icons/react", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:2.1.10"],\
+          ["@stripe/react-stripe-js", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:5.4.1"],\
+          ["@stripe/stripe-js", "npm:8.5.3"],\
           ["@types/react", "npm:19.2.6"],\
           ["@types/react-dom", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:19.2.3"],\
           ["@vitejs/plugin-react", "virtual:e709b65ed95cb28d1701df2fa8b01f0a469fe59743036fcee46ec493ea527644c522d2887430820240bf31dac1173e14d40d83cf74472b215f20ebadc03e7abe#npm:5.1.1"],\

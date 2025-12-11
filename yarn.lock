@@ -1101,6 +1101,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@stripe/react-stripe-js@npm:^5.4.1":
+  version: 5.4.1
+  resolution: "@stripe/react-stripe-js@npm:5.4.1"
+  dependencies:
+    prop-types: "npm:^15.7.2"
+  peerDependencies:
+    "@stripe/stripe-js": ">=8.0.0 <9.0.0"
+    react: ">=16.8.0 <20.0.0"
+    react-dom: ">=16.8.0 <20.0.0"
+  checksum: 10c0/9418be614419e6d3169dc29e78251395648aebfc19b0d7be8ca1e5195518d72fa5110eaccf88a3a3195dbc8d51f47bac722ad60518834d65b60d44b1573fa066
+  languageName: node
+  linkType: hard
+
+"@stripe/stripe-js@npm:^8.5.3":
+  version: 8.5.3
+  resolution: "@stripe/stripe-js@npm:8.5.3"
+  checksum: 10c0/4601a85c77b562329706df92d93644ccecd31bec2e96ddd5c3ce207b305a9b733a110697e322070f3d40d5466972a84ebe9413d7b503cf7f903fdf026ed6d276
+  languageName: node
+  linkType: hard
+
 "@tufjs/canonical-json@npm:2.0.0":
   version: 2.0.0
   resolution: "@tufjs/canonical-json@npm:2.0.0"
@@ -1704,6 +1724,8 @@ __metadata:
     "@eslint/js": "npm:^9.39.1"
     "@hookform/resolvers": "npm:^5.2.2"
     "@phosphor-icons/react": "npm:^2.1.10"
+    "@stripe/react-stripe-js": "npm:^5.4.1"
+    "@stripe/stripe-js": "npm:^8.5.3"
     "@types/react": "npm:^19.2.5"
     "@types/react-dom": "npm:^19.2.3"
     "@vitejs/plugin-react": "npm:^5.1.1"
@@ -3720,7 +3742,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.8.1":
+"prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
