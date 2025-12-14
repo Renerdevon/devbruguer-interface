@@ -57,13 +57,13 @@ export const RightContainer = styled.div`
 `
 
 export const Tittle = styled.h2`
-    font-family: "Road Rage", sans-serif;
+    font-family: ${(props) => props.theme.roadRageFont};
     font-size: 40px;
     color: #fff;
 
     span {
-       color: #9758a6;
-        font-family: "Road Rage", sans-serif;
+       color: ${(props) => props.theme.purple};
+        font-family: ${(props) => props.theme.roadRageFont};
 
     }
 
@@ -102,7 +102,7 @@ export const InputContainer = styled.div`
         p {
             font-size: 14px;
             line-height: 80%;
-            color: #cf3057;
+            color: ${(props) => props.theme.darkRed};
             font-weight: 600;
             height: 10px;
         }

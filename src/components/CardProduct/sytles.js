@@ -31,7 +31,7 @@ export const Container = styled.div`
 
         strong {
             font-size: 22px;
-            color: #363636;
+            color: ${(props) => props.theme.black};
             font-weight: 800;
             line-height: 20px;
     }

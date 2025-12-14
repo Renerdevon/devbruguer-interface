@@ -26,7 +26,7 @@ export const Banner = styled.div`
     position: relative;
 
     background: url('${BannerHamburguer}') no-repeat;
-    background-color: #1f1f1f;
+    background-color: ${(props) => props.theme.mainBlack};
     background-position: center;
     background: cover ;
 
@@ -62,7 +62,9 @@ export const CategoryButton = styled(Link)`
     text-decoration: none;
     cursor: pointer;
     background: none;
-    color: ${props => props.$isActiveCategory ? '#9758a6' : '#ff8c05'};
+    color: ${props => props.$isActiveCategory
+        ? (props) => props.theme.purple
+        : (props) => props.theme.orange};
     font-size: 24px;
     font-weight: 500;
     padding: 5px 10px;
@@ -74,7 +76,7 @@ export const CategoryButton = styled(Link)`
     transition: background-color 1.5s ease, color 1.5s ease;
 
     &:hover {
-        background-color: #9758a6; /* o roxo */
+        background-color: ${(props) => props.theme.purple}; /* o roxo */
         color: #fff;              /* deixa o texto branco */
     }
 `;
@@ -119,7 +121,7 @@ export const HomeButton = styled.button`
         left: 4px;
         width: 48px;      /* w-1/4 de 192px */
         height: 48px;     /* h-12 */
-        background: #9758a6; /* green-400 */
+        background: ${(props) => props.theme.purple}; /* green-400 */
         border-radius: 12px;
         display: flex;
         align-items: center;

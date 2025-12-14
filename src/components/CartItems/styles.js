@@ -35,7 +35,7 @@ export const ButtonGroup = styled.div`
         border: none;
 
         &:hover {
-            background-color: #6f357c;
+            background-color: ${(props) => props.theme.darkPurple};
         }
     }
 `;
