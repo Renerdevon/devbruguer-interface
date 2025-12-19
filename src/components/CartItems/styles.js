@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProductImageBox = styled.div`
-    background-color: #f3f3f3; /* Fundo cinza conforme o Figma */
+    background-color: #9758a6; /* Fundo cinza conforme o Figma */
     padding: 12px;
     border-radius: 16px;
     width: 100px;

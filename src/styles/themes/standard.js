@@ -14,6 +14,7 @@ export const standardTheme = {
     secondWhite: '#f0f0f0',
     darkWhite: '#f4f4f4',
     gren: '#61a120',
+    Rajdhani: '"Rajdhani", sans-serif',
     roadRageFont: '"Road Rage", sans-serif',
     poppinsFont: '"Poppins", sans-serif',
 };

@@ -31,7 +31,7 @@ export function Row({ row, setOrders, orders }) {
             await api.put(`orders/${id}`, { status })
 
             const newOrders = orders.map(order =>
-                order.id === id ? { ...order, status } : order,
+                order._id === id ? { ...order, status } : order,
             );
 
             setOrders(newOrders);
@@ -75,6 +75,7 @@ export function Row({ row, setOrders, orders }) {
 
                         onChange={status => newStatusOrder(row.orderId, status.value)}
                         isLoading={loading}
+                        menuPortalTarget={document.body}
                     />
                 </TableCell>
             </TableRow>
